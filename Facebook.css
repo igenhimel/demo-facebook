@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Start header area*/
+.header{
+    background: #3E5B9A;
+        overflow:hidden;
+    padding: 8px 0;
+
+}
+.logo img{
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+}
+.logo{
+    width: 30%;
+    float: left;
+
+}
+.login_area{
+    width: 60%;
+        float:left;
+}
+.login_area form{
+    float: right;
+}
+.login_area label,input{
+    display: block;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-right: 15px;
+
+
+}
+
+.login_area label{
+    color: white;
+}
+.login_area input[type="text"],
+.login_area input[type="password"]{
+    padding: 5px;
+    border: 1px solid #1d2a5b;
+    outline:0;
+
+}
+.login_area .login input{
+    margin:0;
+}
+
+.login_area .pass a{
+    text-decoration: none;
+    color:white;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+
+.login_area .email,.pass,.login{
+    float: left;
+}
+
+
+
+.login_area input[type="submit"]{
+    background: #4267b2;
+    border:1px solid #29487d;
+    padding:5px 8px;
+    margin-top: 28px;
+    color:white;
+        border-radius: 2px;
+    outline:0;
+}
+.login_area input[type="submit"]:hover{
+     background: #29487d;
+    border:1px solid #4267b2;
+    border-radius: 2px;
+
+
+}
+
+/* End header area */
+
+/* Start SignUp area */
+
+.sign_up{
+    padding: 20px 0;
+    background: linear-gradient(#ffffff,#D4D9E9);
+}
+
+.image_left{
+    width:55%;
+    float: left;
+
+}
+.account_right{
+    width: 45%;
+    float: left;
+
+}
+
+
+
+.gender{
+    margin: 5px;
+}
+
+.gender input{
+    float: left;
+}
+.gender label{
+    float: left;
+    position: relative;
+    right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#1d2129;
+}
+.sign_up::after{
+
+    content: '';
+    clear: both;
+    display: block;
+
+}
+.image_left p{
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: 600;
+    width: 85%
+}
+.image_left img{
+    width: 500px;
+
+}
+.contain{
+    width: 80%;
+    margin: auto;
+}
+.account_right h2{
+    font-size: 37px;
+    color:#333;
+    margin: 0;
+}
+.account_right h4{
+    font-size: 19px;
+    color:#1d2129;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 12px;
+
+}
+
+.account_right input[type="text"],
+.account_right input[type="password"]{
+    width: 78%;
+    border:1px solid #bdc7d9;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    margin-top: 0;
+
+}
+
+.fullnames{
+  overflow:hidden;
+
+
+}
+.f_name{
+   width: 45% ;
+    float: left;
+    margin-right: -2%;
+
+
+}
+.sur_name{
+    width: 45%;
+    float: left;
+}
+
+.birthday{
+    overflow: hidden;
+}
+
+.birthday h4{
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+.birth-date select{
+    border:1px solid #ccc;
+    padding: 8px;
+    float: left;
+    border-radius: 2px;
+}
+.birth-date{
+    overflow: hidden;
+    float: left;
+    margin-right:-20px;
+    width: 250px;
+}
+.birth-link{
+    float: left;
+    width: 250px;
+
+}
+
+.birth-link a{
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    color:#365899;
+}
+.birth-link a:hover{
+    text-decoration: underline;
+}
+
+.textbox{
+    margin-bottom:20px;
+}
+
+.textbox p{
+    width: 75%;
+    font-size: 13px;
+    color:#777;
+
+}
+.textbox p a{
+    color:#365899;
+    text-decoration: none;
+
+}
+.textbox p a:hover{
+    text-decoration: underline;
+
+}
+
+.button{
+    margin-bottom: 30px;
+}
+
+.button input{
+   background: linear-gradient(#67ae55, #578843);
+    box-shadow:inset 0 1px 1px #a4e388;
+    border-width:1px;
+    border-style: solid;
+    boder-color:#3b6e22 #3b6e22 #2c5115;
+    padding: 7px 14px;
+    min-width: 194px;
+    color:white;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size:20px;
+    transition: 0.5s;
+}
+
+.button input:hover{
+     background: linear-gradient(#578843,#67ae55);
+    cursor: pointer;
+
+}
+
+.page{
+    font-weight: 600;
+}
+
+.page a{
+    text-decoration: none;
+    color:#365899;
+
+}
+
+.page  a:hover{
+    text-decoration: underline;
+
+}
+
+/* end signup */
+
+/* start footer */
+
+.footer_area{
+    padding: 30px 0;
+    margin: -15px;;
+
+}
+
+.container3{
+    width: 75%;
+    margin: auto;
+}
+
+.footer_area ul li{
+    display: inline;
+}
+
+.footer_area ul a{
+    text-decoration: none;
+    color:#777;
+    font-size: 13px;
+}
+
+.top ul li{
+    margin-right: 8px;
+
+}
+
+.middle ul li{
+    width: 95%;
+    margin-right: 15px;
+}
+
+.footer_area hr{
+    width: 93%;
+    border: 1px solid #d4d4d4;
+    padding: 0;
+}
+
+.bottom li{
+
+    color:#777;
+    font-size: 13px;
+
+}
+.footer_area .top ul li:last-child a{
+    border:1px solid #777;
+    margin: 0;
+    padding: 0 8px;
+    background: #d4d4d4;
+    color:black;
+    font-weight: 700;
+
+
+}
+
+
+.footer_area ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer_area .top ul li .active{
+    color:black;
+}
+
+.vau{
+    color:blue;
+    text-align: center;
+}
+.meow{
+    color:deepskyblue;
+    text-align: center;
+}
+.userprof{
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    background-color: aliceblue;
+
+}
+
+.home{
+    margin: 0;
+    margin-left: 750px;
+
+}
+
+.containeruser{
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+}
+.logouser{
+    width: 30%;
+    float: left;
+
+}
+
+.logouser img{
+    width: 170px;
+    margin-top: -0px;
+    margin-left: -60px;
+}
+
+.logout input[type="submit"]{
+
+    float:right;
+    margin-top: 0px;
+    margin-right: 90px;
+
+}
+
+
+.logout input[type="submit"]{
+    background: #d4d4d4;
+    border:1px solid #f1f1f1;
+    padding:5px 8px;
+
+    color:black;
+        border-radius: 2px;
+    outline:0;
+}
+.logout input[type="submit"]:hover{
+     background: #29487d;
+    border:1px solid #4267b2;
+    border-radius: 2px;
+    color:white;
+
+
+}
+
+.response{
+    text-align: center;
+    color:red;
+    margin:0;
+    margin-top: 5px;
+    text-shadow:0 0 1px red;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
