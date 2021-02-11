@@ -3,13 +3,21 @@
 
 
 @media screen and (max-width:1200px){
+
+
     .contain{
         width:95%
     }
+
+
 }
 
 
+
 @media screen and (max-width:980px){
+
+
+
 
     .logo{
     width: 100%;
@@ -77,6 +85,11 @@
 }
 @media screen and (max-width:800px){
 
+    .profileicon{
+        top:8px;
+        left: 150px;
+    }
+
     .image_left img{
         margin-left:40px;
     }
@@ -105,7 +118,18 @@
 
 @media screen and (max-width:750px)
 
+
+
 {
+
+        .search-text{
+        width:200px;
+}
+
+     .profileicon{
+
+        display: none;
+    }
 
     .login_area .email,.pass,.login{
         float: none;
@@ -169,10 +193,8 @@
 
 
 
+
 }
-
-
-
 
 
 
