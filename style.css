@@ -1,0 +1,287 @@
+.icon {
+    float: left;
+}
+
+.icon span {
+    font-size: 45px;
+    color:blue;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin-right: 5px;
+}
+
+.search-box {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: 100px;
+    top: 8px;
+    outline: 0;
+    border: none;
+    border-radius: 50px;
+
+}
+
+.search-text {
+    float: left;
+    width: 250px;
+    background: #f1f1f1;
+    border-radius: 50px;
+    border: none;
+    padding: 8px;
+    outline: 0;
+
+}
+
+
+.search-button {
+    float: left;
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+    border-radius: 50px;
+    background: skyblue;
+    width: 50px;
+    border: none;
+
+}
+
+.search-box:hover span {
+    transform: rotate(360deg);
+}
+
+.search-button span {
+    position: relative;
+    left: 3px;
+    top: 3px;
+    color: white;
+    transition: 0.5s;
+}
+
+.profileicon {
+    float: right;
+    background: deepskyblue;
+    border-radius: 60px;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+    padding: 2px;
+    opacity: 1;
+}
+
+.profileicon:hover {
+    opacity: 0.8;
+}
+
+
+.profileicon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profileicon span{
+    color:white;
+}
+
+.navicon {
+    float: left;
+}
+
+.navicon ul {
+    list-style-type: none;
+}
+
+.navicon ul li {
+    float: left;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 80px;
+    border-radius: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+     transition: 0.4s;
+}
+
+.navicon ul li:last-child {
+    margin-right: 0px;
+}
+
+.navicon ul li span {
+    color: black;
+    font-weight: bold;
+     transition: 0.4s;
+}
+
+.navicon ul li:hover {
+
+    background: #d4d4d4;
+}
+
+.navicon ul li:hover span{
+    color: blue;
+}
+
+.fbheader {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+
+.img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 851px;
+    height: 314px;
+
+}
+
+.coverbtn {
+    position: absolute;
+    top: 80%;
+    left: 68%;
+    font-size: 15px;
+    padding: 8px 18px;
+    background: #f1f1f1;
+    color: black;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.coverbtn span {
+    float: left;
+    padding-right: 5px;
+}
+
+.coverbtn:hover{
+    background: #d4d4d4;
+
+}
+
+.coverphoto {
+    position: relative;
+}
+
+.profilepic {
+    width: 150px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: -35px;
+
+}
+
+.dp {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pp {
+    background: #f1f1f1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+}
+
+.pp:hover{
+    background: #d4d4d4;
+
+}
+
+.pp span {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: black;
+}
+
+.biodata {
+    margin-top: 40px;
+}
+
+.horizontalline{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.horizontalline hr{
+    background: #d4d4d4;
+    margin-bottom: 0;
+}
+
+.horizontalline ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontalline ul li{
+    float: left;
+    font-weight: 700;
+
+}
+
+.horizontalline ul li:focus-within{
+    border-bottom: 2px solid deepskyblue;
+}
+
+.horizontalline ul li:hover{
+
+   background: #d4d4d4;
+    border-radius: 10px;
+}
+
+
+.horizontalline ul li:hover, .more:hover{
+    background: #d4d4d4;
+    color:deepskyblue;
+    border-radius: 10px;
+
+}
+
+
+
+.horizontalline ul li:last-child{
+    margin-right: 0;
+}
+
+
+.horizontalline ul li a{
+    text-decoration: none;
+}
+
+.more{
+   position: absolute;
+   top:7px;
+    font-weight: 700;
+
+}
+
+.coverpart {
+    background: linear-gradient(#D4D9E9, #ffffff);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
